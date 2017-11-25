@@ -6,21 +6,38 @@
 
    <!--- basic page needs
    ================================================== -->
-   <meta charset="utf-8">
 	<title>Welcome</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+   <meta name="description" content="A collection of beautiful high-quality HTML5 &amp; CSS3">
+   <meta name="keywords" content="html5, css3, css, responsive, site">
 
-   <!-- mobile specific metas
+   <!-- Mobile Specific Metas
    ================================================== -->
-  <!-- script
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+	<link rel="stylesheet" href="css/styles.css">
+
+   <!-- Script
    ================================================== -->
 	<script src="js/modernizr.js"></script>
-	<script src="js/pace.min.js"></script>
+   <script type="text/javascript">
 
-   <!-- favicons
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-1061610-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+   </script>
+
+   <!-- Favicons
 	================================================== -->
-	<link rel="icon" type="image/png" href="26.png">
+
 </head>
 
 <body id="top">
@@ -2196,7 +2213,7 @@ header .logo a {
  * -------------------------------------------------------------------
  */
 #intro {
-	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+	background: #151515 url(../images/intro-bg.png) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -2997,7 +3014,7 @@ header .logo a {
  * -------------------------------------------------------------------
  */
 #services {
-	background: #313131 url(../images/bg.jpg) no-repeat center;
+	background: #313131 url(../images/bg.png) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -4321,8 +4338,7 @@ img.mfp-img {
    		<div class="col-six tab-full">
 
    			<h3>Profile</h3>
-   			<p>I thrive on designing creative workspaces. My passion is to use technology based solutions, to help solve real world challenges.</p>
-
+   			
    			<ul class="info-list">
    				<li>
    					<strong>Fullname:</strong>
